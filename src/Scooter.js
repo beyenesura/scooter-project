@@ -1,5 +1,4 @@
 class Scooter{
- class Scooter {
   static nextSerial = 1;
   
   constructor(station, user, charge, isBroken) {
@@ -41,7 +40,6 @@ class Scooter{
     this.user = null;
     console.log(`Scooter ${this.serial} docked at ${station}`);
   }
-}
 }
 
 module.exports = Scooter
